@@ -1,6 +1,6 @@
 cask "brewmenu" do
-  version "1.1.7"
-  sha256 "92fbe73c4b2762b23e5c02c74da5c7aedfa3b73ab924a261f11307602ef6b643"
+  version "1.1.8"
+  sha256 "d71339aa33738ce875bcc7475fd701dec0a1a5efce38eb4d6fae802ab1fc6274"
 
   url "https://github.com/dotfn/brewmenu/releases/download/v#{version}/BrewMenu-#{version}.zip"
   name "BrewMenu"
@@ -15,8 +15,6 @@ cask "brewmenu" do
     system_command "/usr/bin/xattr",
                    args: ["-dr", "com.apple.quarantine", "#{appdir}/BrewMenu.app"]
   end
-
-  uninstall quit: "com.brewmenu.app"
 
   zap trash: [
     "~/Library/Application Support/BrewMenu",
