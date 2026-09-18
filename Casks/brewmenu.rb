@@ -1,6 +1,6 @@
 cask "brewmenu" do
-  version "1.2.9"
-  sha256 "251a2f8d728ebb1d937f899767c5034285bb7d6d17a12bd2c3ffc64411e00e10"
+  version "1.2.10"
+  sha256 "b79ca7a94d858f2ec6a3faa63a543f065761c6f02ac02313bf027e070596e84c"
 
   url "https://github.com/dotfn/brewmenu/releases/download/v#{version}/BrewMenu-#{version}.zip"
   name "BrewMenu"
