@@ -1,6 +1,6 @@
 cask "dotphin" do
-  version "0.1.1-beta"
-  sha256 "c0e6d29dc9d1418f9cd53318f6cf70f059239045861b0daf33609f6ac8b203e9"
+  version "0.1.2-beta"
+  sha256 "230ac835a64c4784a0551acbd8603639936532232867dd5df9e13b71eec4bbed"
 
   url "https://github.com/dotfn/dotphin/releases/download/v#{version}/Dotphin-#{version}.zip"
   name "Dotphin"
