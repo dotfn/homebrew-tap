@@ -1,13 +1,13 @@
 cask "brewmenu" do
-  version "1.4.0"
-  sha256 "632117f13ef36f3c38a6d075d9aadf0caaf36f031cbe1b126a519752bcd62634"
+  version "1.5.0"
+  sha256 "13c1349d4ebd8b82ca2844bfba5d52e7d804359eddb1ff00500e1e4c6d538dd0"
 
   url "https://github.com/dotfn/brewmenu/releases/download/v#{version}/BrewMenu-#{version}.zip"
   name "BrewMenu"
   desc "Homebrew health monitor for macOS menu bar"
   homepage "https://github.com/dotfn/brewmenu"
 
-  depends_on macos: :sequoia
+  depends_on macos: :tahoe
 
   app "BrewMenu.app"
 
